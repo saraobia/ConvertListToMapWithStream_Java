@@ -4,17 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0b63258-4752-4c6a-9f2b-725437aa193b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ConvertListToMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StreamListToMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ConvertListToMapTest.java" afterDir="false" />
+    <list default="true" id="e0b63258-4752-4c6a-9f2b-725437aa193b" name="Changes" comment="All Methods + Test Done">
+      <change afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StatsFileWords/StatsFileWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StatsFileWords/StreamWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/convertListToMap/ConvertListToMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StatsFileWords/StatsFileWordsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/convertListToMap/ConvertListToMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/convertListToMap/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ConvertListToMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StreamListToMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/convertListToMap/StreamListToMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ConvertListToMapTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -33,6 +35,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "saraobia"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/saraobia/ConvertListToMap.git",
+    "accountId": "8f079c16-43c4-4aa2-8975-067c9662b70e"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
@@ -44,8 +58,28 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.ConvertListToMapTest.averageBookPrize.executor": "Debug",
+    "JUnit.ConvertListToMapTest.bookNamesJoined.executor": "Debug",
+    "JUnit.ConvertListToMapTest.booksAuthors.executor": "Debug",
+    "JUnit.ConvertListToMapTest.booksStatistics.executor": "Debug",
     "JUnit.ConvertListToMapTest.executor": "Debug",
+    "JUnit.ConvertListToMapTest.listToMapIsbnGreaterThen.executor": "Debug",
+    "JUnit.ConvertListToMapTest.listToMapPriceGreaterThen.executor": "Debug",
+    "JUnit.ConvertListToMapTest.listToMapWithNoDuplicates.executor": "Debug",
+    "JUnit.ConvertListToMapTest.listToMapWithNoDuplicatesList.executor": "Debug",
+    "JUnit.ConvertListToMapTest.testBooksAuthors.executor": "Debug",
+    "JUnit.ConvertListToMapTest.testListToMapOldStyle.executor": "Debug",
+    "JUnit.ConvertListToMapTest.testListToMapWithFunctionIdentity.executor": "Debug",
     "JUnit.ConvertListToMapTest.testListToMapWithLambda.executor": "Debug",
+    "JUnit.ConvertListToMapTest.testListToMapWithReference.executor": "Debug",
+    "JUnit.ConvertListToMapTest.totalCost.executor": "Debug",
+    "JUnit.StatsFileWordsTest.count.executor": "Debug",
+    "JUnit.StatsFileWordsTest.countAll.executor": "Debug",
+    "JUnit.StatsFileWordsTest.executor": "Debug",
+    "JUnit.StatsFileWordsTest.wordGreater.executor": "Debug",
+    "JUnit.StatsFileWordsTest.words.executor": "Debug",
+    "JUnit.StatsFileWordsTest.wordsJoined.executor": "Debug",
+    "JUnit.StatsFileWordsTest.wordsWithLenghtLessThen.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -60,29 +94,110 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="StatsFileWords" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="ConvertListToMapTest.testListToMapWithLambda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ConvertListToMap" />
+  <component name="RunManager" selected="JUnit.StatsFileWordsTest.count">
+    <configuration name="StatsFileWordsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StresmExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="StatsFileWords.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ConvertListToMapTest" />
-      <option name="METHOD_NAME" value="testListToMapWithLambda" />
+      <option name="PACKAGE_NAME" value="StatsFileWords" />
+      <option name="MAIN_CLASS_NAME" value="StatsFileWords.StatsFileWordsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatsFileWordsTest.count" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StresmExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StatsFileWords.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="StatsFileWords" />
+      <option name="MAIN_CLASS_NAME" value="StatsFileWords.StatsFileWordsTest" />
+      <option name="METHOD_NAME" value="count" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatsFileWordsTest.wordGreater" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StresmExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StatsFileWords.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="StatsFileWords" />
+      <option name="MAIN_CLASS_NAME" value="StatsFileWords.StatsFileWordsTest" />
+      <option name="METHOD_NAME" value="wordGreater" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatsFileWordsTest.wordsJoined" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StresmExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StatsFileWords.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="StatsFileWords" />
+      <option name="MAIN_CLASS_NAME" value="StatsFileWords.StatsFileWordsTest" />
+      <option name="METHOD_NAME" value="wordsJoined" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatsFileWordsTest.wordsWithLenghtLessThen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StresmExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StatsFileWords.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="StatsFileWords" />
+      <option name="MAIN_CLASS_NAME" value="StatsFileWords.StatsFileWordsTest" />
+      <option name="METHOD_NAME" value="wordsWithLenghtLessThen" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="StresmExercises" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="StresmExercises" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConvertListToMapTest.testListToMapWithLambda" />
+        <item itemvalue="JUnit.StatsFileWordsTest.count" />
+        <item itemvalue="JUnit.StatsFileWordsTest" />
+        <item itemvalue="JUnit.StatsFileWordsTest.wordsJoined" />
+        <item itemvalue="JUnit.StatsFileWordsTest.wordsWithLenghtLessThen" />
+        <item itemvalue="JUnit.StatsFileWordsTest.wordGreater" />
       </list>
     </recent_temporary>
   </component>
@@ -95,6 +210,36 @@
       <option name="presentableId" value="Default" />
       <updated>1714641568398</updated>
     </task>
+    <task id="LOCAL-00001" summary="Methods: listToMapOldStyle and listToMapWithLambda">
+      <option name="closed" value="true" />
+      <created>1714652521782</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714652521782</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Methods: listToMapOldStyle and listToMapWithLambda" />
+    <MESSAGE value="All Methods + Test Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="All Methods + Test Done" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ConvertListToMap$StatsFileWordsTest.ic" NAME="StatsFileWordsTest Coverage Results" MODIFIED="1714673695794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>StatsFileWords.*</FILTER>
+    </SUITE>
   </component>
 </project>

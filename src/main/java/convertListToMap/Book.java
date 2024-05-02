@@ -1,9 +1,10 @@
-package org.example;
+package convertListToMap;
 
 import java.util.Objects;
 
 public class Book {
     private String isbn;
+    private String name;
     private String description;
     private String author;
     private String nation;
@@ -12,15 +13,17 @@ public class Book {
     public Book() {
     }
 
-    public Book(String isbn, String description, String author, String nation, int price) {
+    public Book(String isbn, String name, String description, String author, String nation, int price) {
         this.isbn = isbn;
+        this.name = name;
         this.description = description;
         this.author = author;
         this.nation = nation;
         this.price = price;
     }
 
-    public Book(String description, String author, String nation, int price) {
+    public Book(String name, String description, String author, String nation, int price) {
+        this.name = name;
         this.description = description;
         this.author = author;
         this.nation = nation;
@@ -33,6 +36,14 @@ public class Book {
 
     public void setIsbn(String isbn) {
         this.isbn = isbn;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getDescription() {
@@ -79,6 +90,7 @@ public class Book {
     public int hashCode() {
         return Objects.hash(isbn, description, author, nation, price);
     }
+
     //?
     @Override
     public String toString() {
@@ -90,6 +102,7 @@ public class Book {
                 ", price=" + price +
                 '}';
     }
+
 
     //comparator?
 }
