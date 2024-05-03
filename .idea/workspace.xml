@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0b63258-4752-4c6a-9f2b-725437aa193b" name="Changes" comment="All Methods + Test Done">
-      <change afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StatsFileWords/StatsFileWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StatsFileWords/StreamWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/convertListToMap/ConvertListToMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StatsFileWords/StatsFileWordsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/convertListToMap/ConvertListToMapTest.java" afterDir="false" />
+    <list default="true" id="e0b63258-4752-4c6a-9f2b-725437aa193b" name="Changes" comment="StatsFileWord (interface + javaClass + junit done)">
+      <change afterPath="$PROJECT_DIR$/data2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StreamTwoFiles/StreamTwoFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StreamTwoFiles/StreamTwoFilesError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StreamTwoFiles/WordTwoFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StreamTwoFiles/StreamTwoFilesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/convertListToMap/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ConvertListToMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StreamListToMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/convertListToMap/StreamListToMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ConvertListToMapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -35,21 +30,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "saraobia"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;saraobia&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/saraobia/ConvertListToMap.git",
-    "accountId": "8f079c16-43c4-4aa2-8975-067c9662b70e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/saraobia/ConvertListToMap.git&quot;,
+    &quot;accountId&quot;: &quot;8f079c16-43c4-4aa2-8975-067c9662b70e&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2fuCR64yVGYxvvIBGvt0Msu75Ib" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -80,6 +75,20 @@
     "JUnit.StatsFileWordsTest.words.executor": "Debug",
     "JUnit.StatsFileWordsTest.wordsJoined.executor": "Debug",
     "JUnit.StatsFileWordsTest.wordsWithLenghtLessThen.executor": "Debug",
+    "JUnit.StreamTwoFilesTest.addWord.executor": "Debug",
+    "JUnit.StreamTwoFilesTest.countAll.executor": "Debug",
+    "JUnit.StreamTwoFilesTest.countWords.executor": "Debug",
+    "JUnit.StreamTwoFilesTest.deleteWord.executor": "Debug",
+    "JUnit.StreamTwoFilesTest.executor": "Debug",
+    "JUnit.StreamTwoFilesTest.findWord.executor": "Debug",
+    "JUnit.StreamTwoFilesTest.firstWord.executor": "Debug",
+    "JUnit.StreamTwoFilesTest.lastWord.executor": "Debug",
+    "JUnit.StreamTwoFilesTest.testCountWordsWithMissingFile.executor": "Debug",
+    "JUnit.StreamTwoFilesTest.wordOccurrences.executor": "Debug",
+    "JUnit.StreamTwoFilesTest.words.executor": "Debug",
+    "JUnit.StreamTwoFilesTest.wordsAsString.executor": "Debug",
+    "JUnit.StreamTwoFilesTest.wordsNoDuplicates.executor": "Debug",
+    "JUnit.StreamTwoFilesTest.wordsOfLength.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -94,110 +103,98 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="StreamTwoFiles" />
       <recent name="StatsFileWords" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StatsFileWordsTest.count">
-    <configuration name="StatsFileWordsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StreamTwoFilesTest">
+    <configuration name="StreamTwoFilesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StresmExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StatsFileWords.*" />
+          <option name="PATTERN" value="StreamTwoFiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="StatsFileWords" />
-      <option name="MAIN_CLASS_NAME" value="StatsFileWords.StatsFileWordsTest" />
+      <option name="PACKAGE_NAME" value="StreamTwoFiles" />
+      <option name="MAIN_CLASS_NAME" value="StreamTwoFiles.StreamTwoFilesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatsFileWordsTest.count" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamTwoFilesTest.findWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StresmExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StatsFileWords.*" />
+          <option name="PATTERN" value="StreamTwoFiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="StatsFileWords" />
-      <option name="MAIN_CLASS_NAME" value="StatsFileWords.StatsFileWordsTest" />
-      <option name="METHOD_NAME" value="count" />
+      <option name="PACKAGE_NAME" value="StreamTwoFiles" />
+      <option name="MAIN_CLASS_NAME" value="StreamTwoFiles.StreamTwoFilesTest" />
+      <option name="METHOD_NAME" value="findWord" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatsFileWordsTest.wordGreater" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamTwoFilesTest.lastWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StresmExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StatsFileWords.*" />
+          <option name="PATTERN" value="StreamTwoFiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="StatsFileWords" />
-      <option name="MAIN_CLASS_NAME" value="StatsFileWords.StatsFileWordsTest" />
-      <option name="METHOD_NAME" value="wordGreater" />
+      <option name="PACKAGE_NAME" value="StreamTwoFiles" />
+      <option name="MAIN_CLASS_NAME" value="StreamTwoFiles.StreamTwoFilesTest" />
+      <option name="METHOD_NAME" value="lastWord" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatsFileWordsTest.wordsJoined" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamTwoFilesTest.testCountWordsWithMissingFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StresmExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StatsFileWords.*" />
+          <option name="PATTERN" value="StreamTwoFiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="StatsFileWords" />
-      <option name="MAIN_CLASS_NAME" value="StatsFileWords.StatsFileWordsTest" />
-      <option name="METHOD_NAME" value="wordsJoined" />
+      <option name="PACKAGE_NAME" value="StreamTwoFiles" />
+      <option name="MAIN_CLASS_NAME" value="StreamTwoFiles.StreamTwoFilesTest" />
+      <option name="METHOD_NAME" value="testCountWordsWithMissingFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatsFileWordsTest.wordsWithLenghtLessThen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamTwoFilesTest.wordOccurrences" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StresmExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StatsFileWords.*" />
+          <option name="PATTERN" value="StreamTwoFiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="StatsFileWords" />
-      <option name="MAIN_CLASS_NAME" value="StatsFileWords.StatsFileWordsTest" />
-      <option name="METHOD_NAME" value="wordsWithLenghtLessThen" />
+      <option name="PACKAGE_NAME" value="StreamTwoFiles" />
+      <option name="MAIN_CLASS_NAME" value="StreamTwoFiles.StreamTwoFilesTest" />
+      <option name="METHOD_NAME" value="wordOccurrences" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="StresmExercises" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="StresmExercises" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StatsFileWordsTest.count" />
-        <item itemvalue="JUnit.StatsFileWordsTest" />
-        <item itemvalue="JUnit.StatsFileWordsTest.wordsJoined" />
-        <item itemvalue="JUnit.StatsFileWordsTest.wordsWithLenghtLessThen" />
-        <item itemvalue="JUnit.StatsFileWordsTest.wordGreater" />
+        <item itemvalue="JUnit.StreamTwoFilesTest" />
+        <item itemvalue="JUnit.StreamTwoFilesTest.testCountWordsWithMissingFile" />
+        <item itemvalue="JUnit.StreamTwoFilesTest.findWord" />
+        <item itemvalue="JUnit.StreamTwoFilesTest.wordOccurrences" />
+        <item itemvalue="JUnit.StreamTwoFilesTest.lastWord" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714652521782</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="StatsFileWord (interface + javaClass + junit done)">
+      <option name="closed" value="true" />
+      <created>1714678157616</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714678157616</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,7 +240,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Methods: listToMapOldStyle and listToMapWithLambda" />
     <MESSAGE value="All Methods + Test Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="All Methods + Test Done" />
+    <MESSAGE value="StatsFileWord (interface + javaClass + junit done)" />
+    <option name="LAST_COMMIT_MESSAGE" value="StatsFileWord (interface + javaClass + junit done)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ConvertListToMap$StatsFileWordsTest.ic" NAME="StatsFileWordsTest Coverage Results" MODIFIED="1714673695794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
