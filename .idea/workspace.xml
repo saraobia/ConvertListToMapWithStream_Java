@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0b63258-4752-4c6a-9f2b-725437aa193b" name="Changes" comment="StatsFileWord (interface + javaClass + junit done)">
-      <change afterPath="$PROJECT_DIR$/data2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StreamTwoFiles/StreamTwoFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StreamTwoFiles/StreamTwoFilesError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StreamTwoFiles/WordTwoFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StreamTwoFiles/StreamTwoFilesTest.java" afterDir="false" />
+    <list default="true" id="e0b63258-4752-4c6a-9f2b-725437aa193b" name="Changes" comment="StreamTwoFiles (interface + javaClass + junit done)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StreamTwoFiles/StreamTwoFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StreamTwoFiles/StreamTwoFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StreamTwoFiles/StreamTwoFilesError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StreamTwoFiles/StreamTwoFilesError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StreamTwoFiles/StreamTwoFilesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StreamTwoFiles/StreamTwoFilesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +40,9 @@
     &quot;accountId&quot;: &quot;8f079c16-43c4-4aa2-8975-067c9662b70e&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/StreamTwoFiles/StreamTwoFiles.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -51,53 +52,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.ConvertListToMapTest.averageBookPrize.executor": "Debug",
-    "JUnit.ConvertListToMapTest.bookNamesJoined.executor": "Debug",
-    "JUnit.ConvertListToMapTest.booksAuthors.executor": "Debug",
-    "JUnit.ConvertListToMapTest.booksStatistics.executor": "Debug",
-    "JUnit.ConvertListToMapTest.executor": "Debug",
-    "JUnit.ConvertListToMapTest.listToMapIsbnGreaterThen.executor": "Debug",
-    "JUnit.ConvertListToMapTest.listToMapPriceGreaterThen.executor": "Debug",
-    "JUnit.ConvertListToMapTest.listToMapWithNoDuplicates.executor": "Debug",
-    "JUnit.ConvertListToMapTest.listToMapWithNoDuplicatesList.executor": "Debug",
-    "JUnit.ConvertListToMapTest.testBooksAuthors.executor": "Debug",
-    "JUnit.ConvertListToMapTest.testListToMapOldStyle.executor": "Debug",
-    "JUnit.ConvertListToMapTest.testListToMapWithFunctionIdentity.executor": "Debug",
-    "JUnit.ConvertListToMapTest.testListToMapWithLambda.executor": "Debug",
-    "JUnit.ConvertListToMapTest.testListToMapWithReference.executor": "Debug",
-    "JUnit.ConvertListToMapTest.totalCost.executor": "Debug",
-    "JUnit.StatsFileWordsTest.count.executor": "Debug",
-    "JUnit.StatsFileWordsTest.countAll.executor": "Debug",
-    "JUnit.StatsFileWordsTest.executor": "Debug",
-    "JUnit.StatsFileWordsTest.wordGreater.executor": "Debug",
-    "JUnit.StatsFileWordsTest.words.executor": "Debug",
-    "JUnit.StatsFileWordsTest.wordsJoined.executor": "Debug",
-    "JUnit.StatsFileWordsTest.wordsWithLenghtLessThen.executor": "Debug",
-    "JUnit.StreamTwoFilesTest.addWord.executor": "Debug",
-    "JUnit.StreamTwoFilesTest.countAll.executor": "Debug",
-    "JUnit.StreamTwoFilesTest.countWords.executor": "Debug",
-    "JUnit.StreamTwoFilesTest.deleteWord.executor": "Debug",
-    "JUnit.StreamTwoFilesTest.executor": "Debug",
-    "JUnit.StreamTwoFilesTest.findWord.executor": "Debug",
-    "JUnit.StreamTwoFilesTest.firstWord.executor": "Debug",
-    "JUnit.StreamTwoFilesTest.lastWord.executor": "Debug",
-    "JUnit.StreamTwoFilesTest.testCountWordsWithMissingFile.executor": "Debug",
-    "JUnit.StreamTwoFilesTest.wordOccurrences.executor": "Debug",
-    "JUnit.StreamTwoFilesTest.words.executor": "Debug",
-    "JUnit.StreamTwoFilesTest.wordsAsString.executor": "Debug",
-    "JUnit.StreamTwoFilesTest.wordsNoDuplicates.executor": "Debug",
-    "JUnit.StreamTwoFilesTest.wordsOfLength.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/SaraObia/IdeaProjects/ConvertListToMap/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.ConvertListToMapTest.averageBookPrize.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ConvertListToMapTest.bookNamesJoined.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ConvertListToMapTest.booksAuthors.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ConvertListToMapTest.booksStatistics.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ConvertListToMapTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ConvertListToMapTest.listToMapIsbnGreaterThen.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ConvertListToMapTest.listToMapPriceGreaterThen.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ConvertListToMapTest.listToMapWithNoDuplicates.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ConvertListToMapTest.listToMapWithNoDuplicatesList.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ConvertListToMapTest.testBooksAuthors.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ConvertListToMapTest.testListToMapOldStyle.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ConvertListToMapTest.testListToMapWithFunctionIdentity.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ConvertListToMapTest.testListToMapWithLambda.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ConvertListToMapTest.testListToMapWithReference.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ConvertListToMapTest.totalCost.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.StatsFileWordsTest.count.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.StatsFileWordsTest.countAll.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.StatsFileWordsTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.StatsFileWordsTest.wordGreater.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.StatsFileWordsTest.words.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.StatsFileWordsTest.wordsJoined.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.StatsFileWordsTest.wordsWithLenghtLessThen.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.StreamTwoFilesTest.addWord.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.StreamTwoFilesTest.countAll.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.StreamTwoFilesTest.countWords.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.StreamTwoFilesTest.deleteWord.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.StreamTwoFilesTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.StreamTwoFilesTest.findWord.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.StreamTwoFilesTest.firstWord.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.StreamTwoFilesTest.lastWord.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.StreamTwoFilesTest.testCountWordsWithMissingFile.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.StreamTwoFilesTest.wordOccurrences.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.StreamTwoFilesTest.words.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.StreamTwoFilesTest.wordsAsString.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.StreamTwoFilesTest.wordsNoDuplicates.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.StreamTwoFilesTest.wordsOfLength.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/SaraObia/IdeaProjects/ConvertListToMap/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -110,7 +111,7 @@
   </component>
   <component name="RunManager" selected="JUnit.StreamTwoFilesTest">
     <configuration name="StreamTwoFilesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StresmExercises" />
+      <module name="StreamExercises" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="StreamTwoFiles.*" />
@@ -124,24 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTwoFilesTest.findWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StresmExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StreamTwoFiles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="StreamTwoFiles" />
-      <option name="MAIN_CLASS_NAME" value="StreamTwoFiles.StreamTwoFilesTest" />
-      <option name="METHOD_NAME" value="findWord" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StreamTwoFilesTest.lastWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StresmExercises" />
+      <module name="StreamExercises" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="StreamTwoFiles.*" />
@@ -157,7 +142,7 @@
       </method>
     </configuration>
     <configuration name="StreamTwoFilesTest.testCountWordsWithMissingFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StresmExercises" />
+      <module name="StreamExercises" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="StreamTwoFiles.*" />
@@ -173,7 +158,7 @@
       </method>
     </configuration>
     <configuration name="StreamTwoFilesTest.wordOccurrences" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StresmExercises" />
+      <module name="StreamExercises" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="StreamTwoFiles.*" />
@@ -188,13 +173,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamTwoFilesTest.wordsOfLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StreamExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StreamTwoFiles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="StreamTwoFiles" />
+      <option name="MAIN_CLASS_NAME" value="StreamTwoFiles.StreamTwoFilesTest" />
+      <option name="METHOD_NAME" value="wordsOfLength" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StreamTwoFilesTest" />
+        <item itemvalue="JUnit.StreamTwoFilesTest.wordsOfLength" />
         <item itemvalue="JUnit.StreamTwoFilesTest.testCountWordsWithMissingFile" />
-        <item itemvalue="JUnit.StreamTwoFilesTest.findWord" />
-        <item itemvalue="JUnit.StreamTwoFilesTest.wordOccurrences" />
         <item itemvalue="JUnit.StreamTwoFilesTest.lastWord" />
+        <item itemvalue="JUnit.StreamTwoFilesTest.wordOccurrences" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714678157616</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="StreamTwoFiles (interface + javaClass + junit done)">
+      <option name="closed" value="true" />
+      <created>1714737356360</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714737356360</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,11 +250,15 @@
     <MESSAGE value="Methods: listToMapOldStyle and listToMapWithLambda" />
     <MESSAGE value="All Methods + Test Done" />
     <MESSAGE value="StatsFileWord (interface + javaClass + junit done)" />
-    <option name="LAST_COMMIT_MESSAGE" value="StatsFileWord (interface + javaClass + junit done)" />
+    <MESSAGE value="StreamTwoFiles (interface + javaClass + junit done)" />
+    <option name="LAST_COMMIT_MESSAGE" value="StreamTwoFiles (interface + javaClass + junit done)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ConvertListToMap$StatsFileWordsTest.ic" NAME="StatsFileWordsTest Coverage Results" MODIFIED="1714673695794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>StatsFileWords.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ConvertListToMap$StreamTwoFilesTest_wordsOfLength.ic" NAME="StreamTwoFilesTest.wordsOfLength Coverage Results" MODIFIED="1714815388265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>StreamTwoFiles.*</FILTER>
     </SUITE>
   </component>
 </project>

@@ -1,8 +1,8 @@
 package StreamTwoFiles;
 
 public class StreamTwoFilesError extends Exception {
-    private String fileName1;
-    private String fileName2;
+    private final String fileName1;
+    private final String fileName2;
 
     public StreamTwoFilesError(String message, String fileName1, String fileName2) {
         super(message);

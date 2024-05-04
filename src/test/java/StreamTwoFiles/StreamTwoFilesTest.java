@@ -4,6 +4,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 
+import java.util.Arrays;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class StreamTwoFilesTest {
@@ -18,14 +20,12 @@ class StreamTwoFilesTest {
     @Test
     public void testCountWordsWithMissingFile() {
         StreamTwoFiles streamTwoFiles = new StreamTwoFiles("missing_file1.txt", "missing_file2.txt");
-        assertThrows(StreamTwoFilesError.class, () -> {
-            streamTwoFiles.countWords();
-        });
+        assertThrows(StreamTwoFilesError.class, streamTwoFiles::countWords);
     }
 
     @Test
     void countWords() throws StreamTwoFilesError {
-        long numExpected = 32l;
+        long numExpected = 32L;
         long numActual = stf.countWords();
         assertEquals(numExpected, numActual);
     }
@@ -120,11 +120,13 @@ class StreamTwoFilesTest {
     void wordsOfLength() throws StreamTwoFilesError {
         String[] arWordsWithLengthExpected = {"cat",
                                               "cat",
+                                              "key",
                                               "sun",
                                               "zoo"};
         String[] arWordsWithLengthActual = stf.wordsOfLength(3);
+        Arrays.sort(arWordsWithLengthActual);
 
-        assertArrayEquals(arWordsWithLengthExpected, arWordsWithLengthExpected);
+        assertArrayEquals(arWordsWithLengthExpected, arWordsWithLengthActual);
     }
 
     @Test
@@ -142,9 +144,9 @@ class StreamTwoFilesTest {
     @Test
     void firstWord() throws StreamTwoFilesError {
         String firstWordExpected = "Adventure";
-        String firstWordACtual = stf.firstWord();
+        String firstWordActual = stf.firstWord();
 
-        assertEquals(firstWordExpected, firstWordACtual);
+        assertEquals(firstWordExpected, firstWordActual);
     }
 
     @Test
